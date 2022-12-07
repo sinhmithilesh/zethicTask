@@ -9,6 +9,7 @@
   background: linear-gradient(rgba(242, 236, 236, 0.5), rgba(255, 255, 255, 0.103)), url("/public/assets/login1.jpg") center;
   background-size: 110%;
   background-repeat: no-repeat;
+  background-color: white;
 }
 
 .error{
@@ -45,8 +46,8 @@
     padding: 10px;
     height: 25px;
     outline: none;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid rgb(190, 227, 245);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 
