@@ -5,12 +5,11 @@ import {
   PhoneAndroid,
   Place,
 } from "@mui/icons-material";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "./user.css";
 import React, { useEffect } from 'react'
 import {fakeData} from "../../fakeData"
 import { useState } from "react";
-import axios from "axios";
 
 export default function User() {
 
