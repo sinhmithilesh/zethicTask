@@ -1,0 +1,59 @@
+.footer{
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+}
+
+.footerList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap :wrap
+}
+
+.footerListItem{
+    list-style: none;
+    font-size: 15px;
+    border: 1px solid rgb(219, 215, 215);
+    color: gray;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerListItemText{
+    padding: 2px;
+    list-style: none;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer; 
+}
+
+.hideElement{
+    padding: 2px;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    background-color: white;
+}
+
+.footerListItem:hover{
+    color: white;
+    background-color: rgb(60, 145, 173);
+}
+
+.footerListItemText:hover{
+    color :  rgb(46, 146, 180);
+}
+
+.pageClicked{
+    color: white;
+    background-color: rgb(121, 192, 215);
+}
+
